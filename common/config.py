@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv(override=True)
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+LLM_API_KEY = os.getenv("LLM_API_KEY")
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
 API_KEY = os.getenv("LLM_API_KEY")
